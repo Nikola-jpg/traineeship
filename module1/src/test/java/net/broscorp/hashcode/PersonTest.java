@@ -24,7 +24,6 @@ public class PersonTest {
     Assertions.assertEquals(persons.get(0).hashCode(), persons.get(1).hashCode());
   }
 
-  // Если два объекта равны, они должны иметь одинаковый хэш-код.
   @Test
   public void foundIdenticalHashCode() {
     Assertions.assertEquals(persons.get(0).hashCode(), persons.get(1).hashCode());
